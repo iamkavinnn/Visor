@@ -117,3 +117,20 @@ header{
 }
 
 
+.heading{
+    font-size: 44px;
+    color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+}
+
+
+.sub-text{
+    font-size: 16px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align:left;
+    display: block;
+}
+
+
