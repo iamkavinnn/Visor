@@ -118,7 +118,7 @@ header{
 
 
 .heading{
-    font-size: 4rem;
+    font-size: 10%;
     color: beige;
     font-family: 'Courier New', Courier, monospace;
     display: block;
@@ -126,7 +126,7 @@ header{
 
 
 .sub-text{
-    font-size: 2rem;
+    font-size: 10%;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     text-align:left;
