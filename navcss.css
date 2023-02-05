@@ -216,7 +216,7 @@ section{
 
 @media only screen and (max-width:480px){
     .content .textBox{
-        font-size: 0.7em;
+        font-size: 0.5em;
     }
     .content .imgBox img{
         max-width: 120px;
