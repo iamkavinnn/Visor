@@ -33,17 +33,35 @@
             </ul>
         </div>
     </header>
-    
-    <img src="visor home 1pic.png" style="max-width: 100%;height: auto">
-    
-    <h1 class="heading">#Welcome,</h1>
-    <h3 class="sub-text">We at Visor make and innovate new ideas and create solutions for mordern problems.is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</h3>
-
+     <section class="sec">
+    <div class="content">
+        <div class="textBox">
+            <h2>Thats What<br><span>I like</span></h2>
+            <P>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</P>
+            <a href="#">View All Products</a>
+        </div>
+        <div class="imgBox">
+            <img src="model2.png" class="glass">
+        </div>
+    </div>
+          <ul class="thumb">
+        <li><img src="model2.png" onclick="imgSlider('model2.png');changeBgColor('black')"></li>
+        <li><img src="model1.png" onclick="imgSlider('model1.png');changeBgColor('maroon')"></li>
+        <li><img src="model 3.png" onclick="imgSlider('model 3.png');changeBgColor('#0062be')"></li>
+    </ul>
     <script>//Java script query for navbar.
         hamburger = document.querySelector(".hamburger");
         hamburger.onclick = function (){
             navbar = document.querySelector(".nav-bar");
             navbar.classList.toggle("active");
+        }
+        
+        function imgSlider(anything){
+            document.querySelector('.glass').src = anything;
+        }
+        function changeBgColor(color){
+            const sec = document.querySelector('.sec');
+            sec.style.background = color;
         }
     </script>
 </body>
