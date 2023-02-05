@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navabr</title>
+    <link rel="stylesheet" href="navcss.css">
+    
+</head>
+<body class="body">
+    <header>
+        <div class="logo"><a href="#"><img src="Visor Logo.JPG"></a></div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="nav-bar">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="index.html">About us</a>
+                </li>
+                <li>
+                    <a href="visor services.html">Services</a>
+                </li>
+                <li>
+                    <a href="visor contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <script>//Java script query for navbar.
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function (){
+            navbar = document.querySelector(".nav-bar");
+            navbar.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
+
+
+
+
