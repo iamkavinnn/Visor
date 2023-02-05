@@ -91,9 +91,11 @@ footer{
 .col .contact-details{
    display: inline-flex;
    justify-content: space-between;
+   margin-top:-12px;
+   margin-right: -157px;
 }
 .col .contact-details i{
-   margin-right:15px;
+   margin-right:0;
 }
 .row .form{
    display: flex;
@@ -107,6 +109,7 @@ footer{
    outline:none;
    padding:14px 20px;
    border-radius: 6px;
+   margin-left: -25px;
    border-top-right-radius: 0;
    border-bottom-right-radius: 0;
 }
@@ -143,10 +146,13 @@ footer{
  }
 }
 
+.bottom-text{
+    text-align: center;
+}
 
 footer .bottom{
     width: 100%;
-    text-align: center;
+    text-align: right;
     color: white;
     padding: 0 40px 5px 0;
 }
